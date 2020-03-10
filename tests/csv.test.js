@@ -1,6 +1,6 @@
 // CSV Reader Test
 const reader = require('../csvReader.js');
-const model = require('../Models/city.js')
+const model = require('../models/city.js')
 
 test('Creating the model', () => {
     let city = new model();
